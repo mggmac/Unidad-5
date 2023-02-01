@@ -1,0 +1,27 @@
+header {
+background-color: greenyellow;
+text-align: center;
+font-size: 60px;
+}
+nav {background-color: grey;
+    display: flex ;
+    flex-direction: row;
+    padding-right: 12.5px;
+    padding-left: 12.5;
+}
+section{
+    background-color: chocolate;
+}
+article{
+    background-color: aquamarine;
+}
+footer{
+    background-color: blue;
+}
+aside{
+    background-color: beige;
+}
+.container{
+    display: flex;
+    flex-direction:row ;
+}
