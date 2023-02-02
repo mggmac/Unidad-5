@@ -3,11 +3,19 @@ background-color: greenyellow;
 text-align: center;
 font-size: 60px;
 }
-nav {background-color: grey;
+nav {
+    background-color: grey;
     display: flex ;
     flex-direction: row;
-    padding-right: 12.5px;
-    padding-left: 12.5;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    border-right: 150px;
+}
+.menuItem{
+    padding-right: 10%;
+    padding-left: 10%;
 }
 section{
     background-color: chocolate;
@@ -23,5 +31,8 @@ aside{
 }
 .container{
     display: flex;
-    flex-direction:row ;
+    flex-direction: row;
+}
+.pie{
+    color: aliceblue;
 }
