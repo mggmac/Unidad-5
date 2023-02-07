@@ -1,0 +1,28 @@
+.parrafo1{
+    font-size: 30px;
+    color: aquamarine;
+}
+
+.tituloTabla{
+    color: blue;
+    padding: 10px ;
+}
+.tituloColumna1{
+    color: orange;
+}
+.titulofila1{
+    color: orange;
+}
+.celdasInteriores{
+    color: green;
+}
+.titulofila2{
+    color: red;
+}
+.rojo{
+    color: red;
+}
+.azul{
+    color: blue;
+    text-decoration: underline;
+}
