@@ -5,26 +5,23 @@
 
 .banner{
     background-color: gray;
+    text-align: center;
+    color:white ;
+    ;
     
 }
 
-
-.nombre{
+.tituloResumen{
     text-align: center;
-    color: white;
-    font-size: 60px;
-    background-color: gray;
 }
+
 
 .resumen{
     text-align: justify;
 }
 
-.cv{
-    text-align: center;
-    color: rgb(253, 253, 253);
-   font-size: 50px;
-}
+
+
 .menuNav{
     display: flex;
     flex-direction: row;
@@ -33,7 +30,7 @@
 }
 
 .tituloNav{
-    text-align: right;
+    text-align: center;
 }
 
 .valoresNav{
@@ -48,7 +45,16 @@
 
 section{
     text-align: center;
-    
+        
+}
+
+.experienciaLaboral{
+    display: none;
+}
+
+
+.formacion{
+    display: none;
 }
 
 aside{
@@ -73,24 +79,22 @@ footer{
 .information{
     display:contents;
 }
-.tituloResumen{
-    text-align: center;
-}
 
-.ab {
-    text-align: center;
-}
 
-.myUL {
-    display: inline-block;
-    text-align: left;
-}
 
 @media (min-width: 600px) {
     .contenedor {
         flex-direction: row;
     }
-    footer {
-        background-color: red;
+footer {
+    background-color: black;
     }
-} 
+}
+
+.otrosDatos{
+    display: none;
+}
+
+body{
+    background-color: rgba(0, 255, 0, 0.653);
+}
