@@ -1,0 +1,18 @@
+
+
+body{
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.contador{
+    
+    display: none;
+    color: red;
+}
+
+.resultado{
+    color: red;
+}

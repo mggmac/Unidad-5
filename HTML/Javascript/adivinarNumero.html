@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="adivinarNumero.css">
+</head>
+<body>
+    <h1 class="titulo">Adivina el número</h1>
+    <br>
+    <br>
+    <h3 class="subtitulo">Introduce aquí tu apuesta entre 0 y 100</h3>
+    <br>
+    <input type="text" id="numero" class="input">
+    <br>
+    <br>
+    <button id="boton" onclick=comprobar() class="boton">Click aquí para saber si has acertado</button>
+    <p id="resultadoApuesta" class="resultado"></p>
+    <p id="contadorIntentos" class="contador">Llevas <scan id="numeroIntentos"></scan> intentos, ánimo tu puedes.&#128521</p>
+    <p id="vidas" class="vidas"></p>
+    <p id="gracias"></p>
+    
+    <script src="adivinarNumero.js"></script>
+</body>
+</html>
