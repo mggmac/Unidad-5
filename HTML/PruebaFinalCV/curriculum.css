@@ -85,12 +85,13 @@ aside{
 /*Footer: incluye datos de contacto y redes sociales*/
 
 footer{
-    text-align: left;
     background-color: gray;
 }
 
 .pie{
     color: white;
+    text-align: center;
+    
 }
 
 /*Media: para adaptarlo a diferentes tamaños de pantalla*/
