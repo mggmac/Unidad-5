@@ -1,13 +1,31 @@
-.negrita{
-    font-weight: bold;
-    
-}
+
+/*Cabecera: incluye titulo y un breve resumen*/
 
 .banner{
     background-color: gray;
     text-align: center;
     color:white ;
-    ;
+    font-size: 25px;
+    
+    
+}
+
+.foto{
+    
+    float: left;
+}
+
+.tituloResumen{
+    text-align: center;
+}
+
+
+.resumen{
+    text-align: justify;
+}
+
+.negrita{
+    font-weight: bold;
     
 }
 
@@ -20,12 +38,12 @@
     text-align: justify;
 }
 
-
+/*Nav: incluye las habilidades principales*/
 
 .menuNav{
     display: flex;
-    flex-direction: row;
-    border-right: 150px;
+    flex-direction: column;
+    text-align: center
     
 }
 
@@ -38,14 +56,21 @@
     padding-left: 5%;
 }
 
-.formation{
-    
-    background-position: center;
+/*Section y Aside: contenidas en un div para su disposición en pantalla deseada, incluye experiencia laboral, formacion y otros datos de interés*/
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
 }
 
 section{
     text-align: center;
         
+}
+
+aside{
+    text-align: center;
+   ;
 }
 
 .experienciaLaboral{
@@ -57,15 +82,7 @@ section{
     display: none;
 }
 
-aside{
-    text-align: center;
-   ;
-}
-
-.contenedor{
-    display: flex;
-    flex-direction: column;
-}
+/*Footer: incluye datos de contacto y redes sociales*/
 
 footer{
     text-align: left;
@@ -76,11 +93,7 @@ footer{
     color: white;
 }
 
-.information{
-    display:contents;
-}
-
-
+/*Media: para adaptarlo a diferentes tamaños de pantalla*/
 
 @media (min-width: 600px) {
     .contenedor {
@@ -89,12 +102,12 @@ footer{
 footer {
     background-color: black;
     }
+    .menuNav{
+        flex-direction: row;
+        ;
+    }
+    
 }
 
-.otrosDatos{
-    display: none;
-}
 
-body{
-    background-color: rgba(0, 255, 0, 0.653);
-}
+

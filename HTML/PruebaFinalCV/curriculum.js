@@ -15,9 +15,3 @@ function mostrarFormacion(){
     return document.getElementById('formacion').style.display='none'
 }
 
-function mostrarDatos(){
-    if(document.getElementById('otrosDatos').style.display==='none')
-    return document.getElementById('otrosDatos').style.display='block'
-    else
-    return document.getElementById('otrosDatos').style.display='none'
-}
