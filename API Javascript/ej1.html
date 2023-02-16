@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://js.arcgis.com/3.42/esri/css/esri.css">
+    
+    <script src="https://js.arcgis.com/3.42/"></script>
+    <script src="index.js"></script>
+    <style>
+        html, body, #divMap{
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        #boton{ /*el # es para apuntar al id del elemento y no tener que ponerle una clase*/
+            position: absolute;
+            z-index: 1;
+            right: 10px;
+}
+
+        #nivelZoom{ 
+            position: absolute;
+            z-index: 1;
+            right: 10px;
+            top: 50px;
+            background-color: white;
+            font-size: 20px;
+}
+    </style>
+</head>
+<body>
+    <button id="boton">Vámonos</button>
+    <div id="nivelZoom"></div>
+    <div id="divMap"></div>
+</body>
+</html>
