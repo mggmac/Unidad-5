@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://js.arcgis.com/3.43/esri/css/esri.css">
+    <script src="https://js.arcgis.com/3.43/"></script>
+    <script src="map.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <style>
+    html, body, #mapa {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;   
+    }
+    #leyenda{
+        position: absolute !important /*esto es para que se aplique este estilo y no el de la clase que lo contiene*/; 
+        bottom: 30px;
+        left: 10px;
+        background-color: white;
+    }
+    </style>
+
+    <div id="mapa">
+        
+    </div>
+    
+    <div id="leyenda"></div>
+    
+</body>
+</html>
